@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature View Nursery Farm</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for styling -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Nature View Nursery Farm</h1>
+            <p>Your Trusted Plant Supplier</p>
+            <div class="contact-info">
+                <p>Address: Dhuri-Malerkotla Road, Near Village-Sangala, Malerkotla (148023), Punjab, India</p>
+                <p>Contact Number: <a href="tel:+919815180280">98151-80280</a></p>
+                <p><a href="https://www.instagram.com/nature_view_nursery/" target="_blank">Instagram</a> | <a href="https://www.youtube.com/channel/UCxxxxxx" target="_blank">YouTube</a></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to Nature View Nursery Farm</h2>
+            <p>Explore our wide range of plants and bring nature home!</p>
+        </section>
+
+        <!-- Shop Section -->
+        <section id="shop">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <!--Crysynthimum -->
+                <div class="product">
+                    <a href="#plant-details-1">
+                        <img src="C:\Users\STAR COMPUTER\Downloads\IMG_4159.jpg" alt="Crysynthimum">
+                    </a>
+                    <p>Crysynthimum</p>
+                    <p>Price: ₹150</p>
+                </div>
+
+                <!-- Plant 2 -->
+                <div class="product">
+                    <a href="#plant-details-2">
+                        <img src="plant2.jpg" alt="Plant 2">
+                    </a>
+                    <p>Plant Name 2</p>
+                    <p>Price: ₹700</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Nature View Nursery Farm, we specialize in high-quality plants, offering a wide variety to suit your needs. Our farm is dedicated to providing healthy, beautiful plants to bring joy to your home and garden.</p>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want to inquire about our products, feel free to reach out to us:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Nature View Nursery Farm. All rights reserved.</p>
+    </footer>
+</body>
+</html>
